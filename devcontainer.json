@@ -1,0 +1,10 @@
+{
+  "name": "Minecraft Bedrock Server",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postCreateCommand": "sudo apt update && sudo apt install -y curl unzip screen",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-vscode.remote-containers"]
+    }
+  }
+}
